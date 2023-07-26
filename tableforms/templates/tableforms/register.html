@@ -1,0 +1,13 @@
+<h1>Register the Student data throgh form throgh</h1>
+
+<!-- create_blog_post.html -->
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Register the Student Details</button>
+  </form>
+  
+  <a href="{% url 'tabledata' %}">Tabledata</a>
+  <br>
+  <a href="{% url 'register' %}">Register</a>
+  <br>
