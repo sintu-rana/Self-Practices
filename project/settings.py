@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'tabledata',
     'tablephoto',
     'tableforms',
+    'tablecrud',
 ]
 
 MIDDLEWARE = [
