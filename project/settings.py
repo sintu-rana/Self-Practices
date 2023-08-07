@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'tablephoto',
     'tableforms',
     'tablecrud',
+    'login_register',
 ]
 
 MIDDLEWARE = [

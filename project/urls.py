@@ -25,4 +25,5 @@ urlpatterns = [
     path('tablephoto/',include('tablephoto.urls')),
     path('tableforms/',include('tableforms.urls')),
     path('tablecrud/',include('tablecrud.urls')),
+    path('login_register/',include('login_register.urls')),
 ]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

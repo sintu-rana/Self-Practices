@@ -87,3 +87,24 @@ phone_number = models.Charfield(max_lenght=100, unique=True)
 user_bio = models.Charfield(max_lenth=50)
 
 email= moels.EmailField(unique=True)
+
+
+##########################################
+# Create AbstractUser  model (using Default table in django)
+
+appname- login_register
+
+functionality -login, register, logout
+
+------------------------------------------
+![Alt text](image-10.png)
+
+![Alt text](image-11.png)
+
+
+![Alt text](image-12.png)
+
+![Alt text](image-13.png)
+
+![Alt text](image-14.png)
+
